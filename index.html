@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rang – A Holi Story</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<audio id="bgMusic" loop>
+<source src="assets/music.mp3" type="audio/mpeg">
+</audio>
+
+<div class="slider-wrapper">
+<div class="slider">
+
+<!-- PAGE 1 -->
+<section class="slide slide-1">
+<div class="overlay"></div>
+<div class="content">
+<h1>Holi is about colors...</h1>
+<p>But some colors matter more than others.</p>
+<button id="startBtn" class="primary-btn">Let’s Begin</button>
+</div>
+</section>
+
+<!-- PAGE 2 -->
+<section class="slide slide-2">
+<div class="glass-card">
+<h2>Some people don’t need Holi to shine…</h2>
+<p>They already bring color wherever they go.</p>
+<img src="assets/gif.gif" class="gif">
+<p class="click-hint">Click anywhere to continue →</p>
+</div>
+</section>
+
+<!-- PAGE 3 -->
+<section class="slide slide-3">
+<div class="game-header">
+<h2>Spread Some Colors 🎨</h2>
+<p id="colorCounter">Colors Spread: 0</p>
+</div>
+
+<div class="game-area" id="gameArea"></div>
+
+<div class="game-message" id="gameMessage">
+Okay… now this feels like Holi.
+</div>
+
+<button id="gameNextBtn" class="next-slide-btn">
+Go To Next Slide →
+</button>
+
+</section>
+
+<!-- PAGE 4 -->
+<section class="slide slide-4">
+
+<h2>One color is hiding something…</h2>
+
+<div class="bubble-container">
+<div class="bubble"></div>
+<div class="bubble"></div>
+<div class="bubble special-bubble" id="secretBubble"></div>
+<div class="bubble"></div>
+<div class="bubble"></div>
+</div>
+
+<div class="final-message" id="finalMessage">
+<div id="typeText"></div>
+</div>
+
+</section>
+
+</div>
+</div>
+
+<div class="nav-controls">
+<button id="prevBtn">◀</button>
+<button id="nextBtn">▶</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

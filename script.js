@@ -119,7 +119,7 @@ Holi lasts one day,
 but the color someone leaves on your heart
 sometimes never fades. 💖✨
 
-Happy Holiii Nikku ✨🔫`;
+Happy Holiii Nikkuu ✨🔫`;
 
 let typingStarted=false;
 
@@ -140,3 +140,4 @@ setTimeout(typeWriter,30);
 typeWriter();
 
 };
+
